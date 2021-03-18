@@ -18,13 +18,6 @@ a:hover{
     --skipBtn-color:#69E4F9
 }
 
-header{
-    position:fixed;
-    top: 0;
-    width:100%;
-    height: 120px;
-    padding-top:40px
-}
 ul{
     padding:0;
     margin:0;
@@ -45,18 +38,8 @@ body{
     color:var(--font-color);
 overflow-x: hidden;
 }
-.errorHeader .logo{
-    width:150px;
-}
-
-.navbar-expand-lg .navbar-nav .nav-link{
-    font-size:.9em;
-    color:#221950;
-}
-
-
 .errorPage{
-    padding-top:260px;
+    padding-top:200px;
     padding-bottom: 150px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -70,4 +53,10 @@ overflow-x: hidden;
 .errorRightSide p{
     font-size:1.3em;
     color:#343A40;
+}
+.errorPage2 .errorRightSide h5{
+    margin-bottom:10px;
+}
+.errorPage2 .errorRightSide{
+    margin-bottom:70px;
 }
