@@ -60,3 +60,9 @@ overflow-x: hidden;
 .errorPage2 .errorRightSide{
     margin-bottom:70px;
 }
+.errorPage3 .errorRightSide h5{
+    margin-bottom:40px;
+}
+.errorPage3  .errorImg{
+    margin-bottom:20px;
+}
